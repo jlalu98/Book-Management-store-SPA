@@ -1,0 +1,105 @@
+nav {
+  border-radius: 20px;
+  background-color: #834747;
+}
+
+#add-book {
+  display: none;
+}
+body {
+  background: #ca7070;
+  height: 100%;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  background-size:cover;
+  font-family: sans-serif;
+  color: #fff;
+  font-weight: normal;
+}
+ 
+#btn1{
+  border-radius: 25px;
+  background-color: white ;
+  padding: 10px;
+  
+}
+#btn2{
+  border-radius: 25px;
+  background-color: white ;
+  padding: 10px;
+  
+}
+nav {
+  border-radius: 20px;
+  background-color: #834747;
+
+}
+#add-details{
+  width:320px;
+  background: #834747;
+  padding: 40px 20px;
+  box-sizing:border-box;
+  position:fixed;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 30px;
+
+
+}
+h3{
+  text-align:center;
+}
+h1 {
+  text-align: center;
+  color:white;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+#booktable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border-style: double;
+  width: 100%;
+}
+
+#table tr {
+  color: black;
+  background-color: #f2f2f2;
+}
+
+#table tr:hover {
+  background-color: #ddd;;
+}
+
+thead {
+  padding-top: 30px;
+  padding-bottom: 12px;
+  background-color: #834747;
+  color: white;
+  
+}
+.material-icons {
+  background-color: #ddd;;
+  size: 5px;
+}
+
+#booktable td, #customers th {
+  border: 1px solid #ddd;
+  text-align: center;
+}
+#bookTable{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#title,#author,#rating,#price,#id,#addbutton{
+  width: 100%;
+  background: none;
+  border:1px solid #fff;
+  border-radius: 3px;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
+#id:hover{
+  background-color: #f2f2f2;
+}
